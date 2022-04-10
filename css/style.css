@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body,
+html {
+	height: 100%;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+/* --------------------------------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-style: normal;
+    background: #EAEAEA;
+}
+.main {
+    flex: 1 1 auto;
+}
+.header__container {
+    max-width: 1135px;
+    margin: 0 auto;
+}
+.header__content {
+    margin-bottom: 28px;
+}
+.content {
+    padding: 15px 0;
+    display: flex;
+    justify-content: end;
+}
+[class*="__logo"] {
+    flex: 1 1 auto;
+    color: #101010;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.22;
+}
+.content__like {
+    margin-right: 45px;
+    position: relative;
+}
+.content__namber-1 {
+    position: absolute;
+    top: -9px;
+    right: -8px;
+    background-color: #FFA542;
+    border-radius: 50%;
+    width: 17.4px;
+    height: 17.4px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.content__basket {
+    position: relative;
+    margin-right: 31.31px;
+}
+.content__namber-2 {
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    background-color: #FFA542;
+    border-radius: 50%;
+    width: 17.4px;
+    height: 17.4px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.services__container {
+    max-width: 1110px;
+    margin: 0 auto 20px;
+}
+.services__container2 {
+    max-width: 1110px;
+    margin: 0 auto 20px;
+}
+.text {
+    font-size: 20px;
+    color: #838383;   
+    padding-bottom: 20px;
+}
+.services__headphones {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.services__wireless-headphones{
+    display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.services__item {
+	flex: 1 1 33.333%;
+	max-width: 350px;
+}
+.services__item2 {
+	flex: 1 1 33.333%;
+	max-width: 633px;
+}
+.item-services {
+	background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	height: 100%;
+}
+.item-services2 {
+	background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+    justify-content: center;
+	height: 100%;
+}
+.item-services__image {
+    width: 219px;
+    height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.item-services__image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.item-services__icon:not(:last-child) {
+	margin: 0px 0px 54px 0px;
+}
+.sale{
+    position: relative;
+}
+.sale::after {
+    content: "3527 ₽";
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    text-decoration-line: line-through;
+    font-size: 13px;
+    color: #FFCE7F;
+}
+.item-services__blok1:not(:last-child) {
+	margin: 0px 0px 26px 0px;
+}
+.item-services__blok2 {
+	margin: 0px 0px 32px 0px;
+}
+.bloks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 21px;
+    flex: 1 1 auto;
+}
+.item-services__name {
+    color: #1C1C27;
+}
+.item-services__star {
+    color: #838383;;
+    padding-left: 33.33px;
+    background: url(../img/Vector_Star.svg) 0 0px / 23.33px 21.93px no-repeat;
+}
+.item-services__price {
+   color: #FFA542 ;
+}
+.item-services__price2 {
+    color: #1C1C27 ;
+ }
+ .new {
+     position: relative;
+ }
+ .new-2 {
+     position: absolute;
+     top: ;
+     left: 180px;
+ }
+ .new-3 {
+    position: absolute;
+    top: 30px ;
+    left: 20px;
+    color: #AAAAAA;
+
+ }
+ .plus {
+     position: relative;
+     top: 13px;
+     right: 445px;
+     width: 35.17px;
+     height: 30px;
+     background-color: #FFCE7F;
+     color: white;
+     font-size: 30px;
+     text-align: center;
+ }
+ .minus{
+    position: relative;
+     top: 15px;
+     width: 35.17px;
+     height: 30px;
+     background-color: #FFCE7F;
+     color: white;
+     font-size: 30px;
+     text-align: center;
+ }
+ .img-minus {
+     width: 100%;
+     height: 100%;
+     padding: 14px 9.38px;
+ }
+ .img-plus {
+    width: 100%;
+    height: 100%;
+    padding: 8px 9.38px;
+ }
+ .item-services__number {
+    position: relative;
+    font-size: 17px;
+    top: 20px;
+    left: -220px;
+ }
+ .delete {
+     position: absolute;
+     top: 15px;
+     right: 30px;
+ }
+ .new-4 {
+     position: relative;
+     top: -200px;
+     left: 750px;
+ }
+ 
+.services__button {
+	align-self: center;
+	background-color: #101010;
+    min-width: 350px;
+    max-height: 65px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 22px 12.92px 22px 14.22px;
+}
+.footer__container {
+    max-width: 1110px;
+    min-height: 149px;
+    background-color:  #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    margin: 0 auto;
+    padding: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+    flex: none;
+}
+.items  {
+    color: #000000;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__group-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__terms {
+    color: #000000;
+    font-weight: 400;
+}
+.languages__kaz {
+    background: url(../img/Vector_Globus.svg) 0 0 / 20px 20px no-repeat;
+    color: #101010;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 37px;
+}
+.languages__ru {
+    background: url(../img/Vector_Globus.svg) 0 0 / 20px 20px no-repeat;
+    color: #FFA542;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 37px;
+}
+.languages__ru2 {
+    color: #FFA542;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 17px;
+}
+.languages__en {
+    color: #101010;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 17px;
+}
+.footer__group-3 a:not(:last-child) {
+	margin: 0px 17.9px 0px 0px;
+}
